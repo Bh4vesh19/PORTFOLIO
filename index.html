@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A Netflix-inspired portfolio for BHAVESH SUTHAR, a programming basics learner." />
+    <title>BHAVESH SUTHAR | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div id="app">
+        <header class="header">
+            <div class="container header__container">
+                <a href="#" class="header__logo" aria-label="Homepage">BS</a>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li><a href="#about" class="nav__link">About Me</a></li>
+                        <li><a href="#education" class="nav__link">Education</a></li>
+                        <li><a href="#skills" class="nav__link">Skills</a></li>
+                        <li><a href="#projects" class="nav__link">Projects</a></li>
+                    </ul>
+                </nav>
+                <a href="#contact" class="btn btn--accent header__cta">Get Connected</a>
+                <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">
+                    <span class="nav-toggle__bar"></span>
+                    <span class="nav-toggle__bar"></span>
+                    <span class="nav-toggle__bar"></span>
+                </button>
+            </div>
+        </header>
+
+        <main>
+            <section id="profile" class="hero">
+                <div class="hero__background">
+                    <img src="https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="A modern developer workspace with multiple monitors displaying code." loading="eager" class="hero__background-image">
+                    <div class="hero__vignette"></div>
+                </div>
+                <div class="container hero__content">
+                    <h1 class="hero__title">BHAVESH SUTHAR</h1>
+                    <p class="hero__subtitle">👨‍💻 Programming basics learner with interests in Python, C, and Java. Exploring mini-projects and looking forward to internships, MCA, or certifications to boost career readiness.</p>
+                    <div class="hero__actions">
+                        <a href="#projects" class="btn btn--accent">View Projects</a>
+                        <a href="/resume.pdf" download class="btn btn--outline">Download Resume</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="content-section">
+                <div class="container">
+                    <h2 class="section-title">My Story</h2>
+                    <div class="about-layout">
+                        <div class="about-layout__content-col">
+                            <h3 class="about-greeting">Hello, I'm <span class="highlight">Bhavesh Suthar</span>.</h3>
+                            <p class="about-description">
+                                I'm a passionate and driven programming learner, currently in my second year of a Bachelor of Computer Applications. My fascination with technology isn't just academic; it's a genuine curiosity about how code can solve real-world problems and create amazing digital experiences. I thrive on the challenge of dissecting complex problems and building elegant, efficient solutions from the ground up.
+                                <br><br>
+                                My core focus is on building a rock-solid foundation in software development. I'm actively honing my skills in <span class="highlight">Python, C, and Java</span>, moving from theoretical knowledge to practical application by building small, functional projects. This hands-on approach helps me solidify my understanding of fundamental concepts like object-oriented programming, data structures, and algorithms. My ultimate goal is to leverage these skills in a professional setting, and I am actively seeking internships, an MCA, or professional certifications to accelerate my journey toward becoming a career-ready software developer.
+                            </p>
+                            <div class="about-contact">
+                                <div class="contact-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20" role="img" aria-hidden="true"><path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z"></path></svg>
+                                    <a href="mailto:bhaveshsutharb830@gmail.com">bhaveshsutharb830@gmail.com</a>
+                                </div>
+                                <div class="contact-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20" role="img" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"></path></svg>
+                                    <span>Mumbai, Maharashtra</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="education" class="content-section">
+                <div class="container">
+                    <h2 class="section-title">🎓 Education & Learning</h2>
+                    <div class="education-timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h3 class="timeline-title">Bachelor of Computer Applications (BCA)</h3>
+                                <p class="timeline-subtitle">Tilak Vidyapeth University | Currently 2nd Year</p>
+                                <p class="timeline-description">
+                                    Building a comprehensive foundation in computer science and software development principles.
+                                </p>
+                                <h4 class="coursework-title">Key Coursework Includes:</h4>
+                                <ul class="coursework-list">
+                                    <li>Data Structures & Algorithms</li>
+                                    <li>Object-Oriented Programming with Java</li>
+                                    <li>Procedural Programming in C</li>
+                                    <li>Database Management Systems (DBMS)</li>
+                                    <li>Web Development Fundamentals (HTML, CSS, JS)</li>
+                                    <li>Software Engineering Principles</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills" class="content-section">
+                <div class="container">
+                    <h2 class="section-title">Skills</h2>
+                    <div class="skills-grid">
+                        <div class="skill-chip">Python</div>
+                        <div class="skill-chip">C</div>
+                        <div class="skill-chip">Java</div>
+                        <div class="skill-chip">HTML</div>
+                        <div class="skill-chip">CSS</div>
+                        <div class="skill-chip">JavaScript</div>
+                        <div class="skill-chip">Git</div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="carousel-section">
+                <div class="container">
+                    <h2 class="section-title">🛠 Projects</h2>
+                </div>
+                <div class="carousel">
+                    <div class="carousel__track">
+                        <div class="project-card">
+                            <div class="project-card__image-container">
+                                <img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="project-card__image" alt="Abstract code on a screen" loading="lazy">
+                            </div>
+                            <div class="project-card__content">
+                                <h3 class="project-card__title">Portfolio Website</h3>
+                                <p class="project-card__description">Developed using HTML, CSS, and JS to showcase my work.</p>
+                                <div class="project-card__tags">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>JS</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-card__image-container">
+                                <img src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="project-card__image" alt="Web design wireframes" loading="lazy">
+                            </div>
+                            <div class="project-card__content">
+                                <h3 class="project-card__title">Project Two</h3>
+                                <p class="project-card__description">A conceptual project exploring API integration.</p>
+                                <div class="project-card__tags">
+                                    <span>JavaScript</span>
+                                    <span>API</span>
+                                    <span>Concept</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-card__image-container">
+                                <img src="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="project-card__image" alt="Developer working on a laptop" loading="lazy">
+                            </div>
+                            <div class="project-card__content">
+                                <h3 class="project-card__title">Project Three</h3>
+                                <p class="project-card__description">A study on data structures and algorithms.</p>
+                                <div class="project-card__tags">
+                                    <span>Python</span>
+                                    <span>Algorithms</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-card__image-container">
+                                <img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="project-card__image" alt="Close-up of HTML code" loading="lazy">
+                            </div>
+                            <div class="project-card__content">
+                                <h3 class="project-card__title">Project Four</h3>
+                                <p class="project-card__description">Exploring responsive design principles with CSS Grid.</p>
+                                <div class="project-card__tags">
+                                    <span>HTML</span>
+                                    <span>CSS Grid</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer id="contact" class="footer">
+            <div class="container footer__container">
+                <h2 class="section-title">Get Connected</h2>
+                <div class="footer__links">
+                    <a href="https://github.com/Bh4vesh19" target="_blank" rel="noopener noreferrer" class="footer__link" aria-label="GitHub">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                    </a>
+                    <a href="https://instagram.com/bh4vesh.19" target="_blank" rel="noopener noreferrer" class="footer__link" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.011 3.584-.069 4.85c-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07s-3.584-.012-4.85-.07c-3.252-.148-4.771-1.691-4.919-4.919-.058-1.265-.069-1.645-.069-4.85s.011-3.584.069-4.85c.149-3.225 1.664-4.771 4.919-4.919 1.266-.057 1.644-.069 4.85-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948s.014 3.667.072 4.947c.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072s3.667-.014 4.947-.072c4.358-.2 6.78-2.618 6.98-6.98.059-1.281.073-1.689.073-4.948s-.014-3.667-.072-4.947c-.2-4.358-2.618-6.78-6.98-6.98-1.281-.059-1.689-.073-4.948-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4s1.791-4 4-4 4 1.79 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44 1.441-.645 1.441-1.44-.645-1.44-1.441-1.44z"/></svg>
+                    </a>
+                    <a href="https://twitter.com/bh4vesh_19" target="_blank" rel="noopener noreferrer" class="footer__link" aria-label="Twitter">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616v.064c0 2.299 1.634 4.217 3.797 4.66-1.134.308-2.326.368-3.528.135 1.08 2.264 4.223 3.569 7.495 3.599-2.087 1.641-4.724 2.622-7.59 2.622-1.04 0-2.063-.062-3.065-.182 2.69 1.728 5.875 2.742 9.34 2.742 11.21 0 17.345-9.29 17.345-17.345 0-.263-.006-.526-.018-.787.961-.695 1.798-1.562 2.457-2.549z"/></svg>
+                    </a>
+                </div>
+                <p class="footer__copyright">&copy; 2025 BHAVESH SUTHAR. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </div>
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
